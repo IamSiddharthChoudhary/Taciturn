@@ -1,0 +1,53 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@pinata/sdk": "^2.1.0",
+    "@radix-ui/react-icons": "^1.3.0",
+    "@web3uikit/core": "^1.1.5",
+    "@web3uikit/icons": "^1.1.2",
+    "@web3uikit/web3": "^0.3.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.11.1",
+    "form-data": "^4.0.0",
+    "framer-motion": "^11.0.14",
+    "fs": "^0.0.1-security",
+    "hexoid": "^1.0.0",
+    "ipfs-core": "^0.18.1",
+    "multer": "^1.4.5-lts.1",
+    "next": "^14.1.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "sindri": "^0.0.1-alpha.46",
+    "snarkjs": "^0.7.4",
+    "tailwind-merge": "^2.2.1",
+    "tailwindcss": "^3.4.1",
+    "tailwindcss-animate": "^1.0.7",
+    "three": "^0.166.1",
+    "web3modal": "^1.9.12"
+  },
+  "devDependencies": {
+    "@types/formidable": "^3.4.5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/snarkjs": "^0.7.8",
+    "@types/three": "^0.166.0",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.3",
+    "formidable": "^3.5.1",
+    "postcss": "^8",
+    "typescript": "^5"
+  }
+}
